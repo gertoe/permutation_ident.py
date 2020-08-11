@@ -39,7 +39,7 @@ def main():
         #print(pword)
         permcount += 1
         # intersect wordlist/dict with permutations to identify matches if
-        # threashold reached
+        # threshold reached
         if permcount >= threshold:
             #print("Threshold reached. Matching with wordlist.")
             matches = matches | (words & permutations)
